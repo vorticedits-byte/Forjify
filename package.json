@@ -1,0 +1,40 @@
+{
+  "name": "forjify",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "check-env": "node check-env.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.6.0",
+    "@supabase/supabase-js": "^2.102.1",
+    "bcryptjs": "^2.4.3",
+    "lucide-react": "^0.344.0",
+    "multer": "^1.4.5-lts.1",
+    "next": "14.2.3",
+    "next-auth": "^4.24.5",
+    "pg": "^8.20.0",
+    "razorpay": "^2.9.6",
+    "react": "^18",
+    "react-dom": "^18",
+    "sqlite3": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/multer": "^1.4.11",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8",
+    "prisma": "^5.6.0",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
